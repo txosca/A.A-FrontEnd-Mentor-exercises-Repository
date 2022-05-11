@@ -3,7 +3,7 @@ body {
 	background-color: hsl(212, 45%, 89%);
 }
 
-h1 {
+img {
 	margin-bottom: 30px;
 }
 
@@ -44,7 +44,16 @@ h1 {
 	margin-right: 20px;
 }
 
-.attribution {
+footer {
 	margin-bottom: 10px;
 	font-size: 10px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+  	left: 50%;
+  	transform: translate(-50%);
 }
+
+
+	
+
