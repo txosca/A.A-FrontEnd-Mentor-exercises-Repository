@@ -1,0 +1,50 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+.card {
+	width: 250px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	background-color: hsl(0, 0%, 100%);
+	align-items: center;
+	text-align: center;
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 0px 0px 20px #949494;
+}
+
+
+.card img {
+	width: 100%;
+	border-radius: 15px;
+	float: unset;
+}
+
+.card span {
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.card p{
+	font-size: 13px;
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.attribution {
+	margin-bottom: 10px;
+	font-size: 10px;
+}
